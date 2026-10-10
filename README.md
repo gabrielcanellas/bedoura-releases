@@ -10,7 +10,7 @@ Get the latest version from the [Releases page](https://github.com/gabrielcanell
 
 1. Download the `.zip` file from the latest release.
 2. Extract **the whole folder** (don't run the program from inside the zip).
-3. Open `bedoura.exe`.
+3. Open `Bedoura.exe`.
 
 Windows may show a "protected your PC" warning the first time, because the program is not code-signed. If it does, click **More info** and then **Run anyway**.
 
