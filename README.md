@@ -1,4 +1,4 @@
-# Bedoura
+# Bedoura [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V8M625QQNI)
 
 Turn pixel art into bead patterns. Bedoura converts a PNG image into a pattern for Perler, Hama, Artkal and Nabbi beads, matching every pixel to the closest real bead color and telling you how many beads of each color you need.
 
