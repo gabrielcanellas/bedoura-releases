@@ -1,8 +1,8 @@
-# Bedoura [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V8M625QQNI)
+# Bedoura
 
 Turn pixel art into bead patterns. Bedoura converts a PNG image into a pattern for Perler, Hama, Artkal and Nabbi beads, matching every pixel to the closest real bead color and telling you how many beads of each color you need.
 
-Free for Windows. No account, no internet connection required.
+Free for Windows 10 or later (64-bit). No account needed, and it works offline.
 
 ## Download
 
@@ -12,16 +12,72 @@ Get the latest version from the [Releases page](https://github.com/gabrielcanell
 2. Extract **the whole folder** (don't run the program from inside the zip).
 3. Open `Bedoura.exe`.
 
+There is no installer: to remove Bedoura, just delete the folder.
+
 Windows may show a "protected your PC" warning the first time, because the program is not code-signed. If it does, click **More info** and then **Run anyway**.
 
-## How to use
+## Quick start
 
-1. **Choose the bead size** (Mini, Midi, Caps or Maxi) in the top bar.
-2. **Open a PNG image** with the folder button. Use pixel art: 1 pixel in the image becomes 1 bead. Transparent pixels stay empty.
-3. **Check the result.** The original is on the left and the bead version on the right. Move the cursor over a pixel to see which bead it uses.
-4. **Adjust colors if you want.** Click a color in the list on the right and pick another bead. Hover over an option to preview it before confirming.
-5. **Check the materials** panel for the beads you need, grouped by brand.
-6. **Export a PDF** with the assembly guide, ready to print or save.
+1. **Choose the bead size** (Mini, Midi, Caps or Maxi) with the bead size button in the top bar. Beads of different sizes don't fit together, so each pattern uses one size. See [Bead sizes and brands](#bead-sizes-and-brands) below.
+2. **Choose the color palette** with the palette button. A window lists the colors of the selected size, grouped by brand. Tick the brands or colors you want to use, and untick the ones you don't have: only ticked colors are used to match and suggest beads. At least one color must stay selected. If you don't change anything, Mini uses Artkal C and Midi uses Perler. Caps and Maxi use all their colors (each has a single brand).
+3. **Open a PNG image** with the folder button. Use pixel art: 1 pixel in the image becomes 1 bead. Transparent pixels stay empty.
+4. **Check the result.** The original is on the left and the bead version on the right. Move the cursor over a pixel to see which bead it uses, shown at the bottom of the window.
+5. **Adjust colors if you want.** Click a color in the list on the right and pick another bead. Hover over an option to preview it before confirming.
+6. **Pick a pegboard** (optional) with the pegboard button, if you want to see where each board starts and ends. It's available for Mini and Midi beads. The Materials panel then also shows how many boards you need.
+7. **Check the Materials panel** for the beads you need, grouped by brand.
+8. **Export a PDF** with the assembly guide. In the preview you can switch between portrait and landscape, then use **Print** and choose a PDF printer (such as Microsoft Print to PDF) to save a file, or send it to a real printer.
+
+You can change the bead size or the palette after loading an image: the conversion is recalculated. If you had edited colors by hand, the program warns you first, because those edits are lost when it recalculates.
+
+## Toolbar guide
+
+Hover over any icon to see its name at the bottom of the window.
+
+**Top bar, left**
+
+| Icon | What it does |
+|---|---|
+| Folder | Open a PNG image |
+| PDF | Export the pattern as a PDF |
+
+**Top bar, center**
+
+| Icon | What it does |
+|---|---|
+| Palette | Choose which brands and colors are used |
+| Circle with a dot | Choose the bead size (Mini, Midi, Caps, Maxi) |
+| Four tiles | Choose a pegboard size, or none |
+| Grid | Show or hide the grid lines |
+
+**Top bar, right**
+
+| Icon | What it does |
+|---|---|
+| Bug | Report a bug, suggest an improvement or ask a question |
+| Globe | Change the language (English, Português, Español) |
+| Info | About, support links and check for updates |
+
+**Left side** (appears after you load an image)
+
+| Icon | What it does |
+|---|---|
+| Arrow | Select: click a bead to mark it in both images |
+| Hand | Move: drag to move the image |
+| Iron | Ironing Mode: mirrors the view horizontally, for the tape method |
+| Fit to screen | Center the image again |
+
+Zoom with the mouse wheel. You can also move the image at any time by holding the middle mouse button and dragging.
+
+## Bead sizes and brands
+
+| Size | Brands and series |
+|---|---|
+| Mini (2.6 mm) | Artkal A, C and M; Hama Mini; Perler Mini |
+| Midi (5 mm) | Artkal R and S; Hama Midi; Nabbi; Perler Midi |
+| Caps (about 10 mm) | Perler Caps |
+| Maxi (about 10 mm) | Hama Maxi |
+
+Pegboards available: Midi has 29×29 and a small 16×16 (not connectable); Mini has 29×29, 50×50 and 52×52. Caps and Maxi have no pegboard option yet.
 
 ## Features
 
@@ -31,8 +87,8 @@ Windows may show a "protected your PC" warning the first time, because the progr
 - Materials summary with the number of beads per brand and color.
 - Pegboard support: see where each board starts and ends, and how many boards you need.
 - Ironing Mode: mirrors the view horizontally, for the tape method. The PDF export follows it.
-- Grid, zoom and pan (hold the middle mouse button to move around).
-- PDF export: a full pattern page plus one page per pegboard, with bead codes when they fit.
+- Grid, zoom and pan.
+- PDF export: a full pattern page plus one page per pegboard (when a pegboard is selected). Bead codes are printed in each cell for patterns up to 52×52 beads, and always on the pegboard pages.
 - Interface in English, Portuguese and Spanish.
 
 ## Good to know
@@ -40,6 +96,7 @@ Windows may show a "protected your PC" warning the first time, because the progr
 - Very large or very colorful images can take several seconds to convert, and the window may not respond meanwhile.
 - Only PNG files are supported.
 - Images above 300×300 beads show a warning, and images above 1000×1000 are blocked.
+- Partly transparent pixels are treated as opaque. Only fully transparent pixels stay empty.
 - Colors are matched by RGB distance, so the closest bead on paper may not always be the closest to your eye. Use the manual editing to fix it.
 - Updates are not installed automatically: download the new version and replace the old folder.
 - Your language and palette choices are not saved when you close the program, and projects can't be saved yet.
