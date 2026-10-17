@@ -2,7 +2,7 @@
 
 Turn pixel art into bead patterns. Bedoura converts a PNG image into a pattern for Perler, Hama, Artkal and Nabbi beads, matching every pixel to the closest real bead color and telling you how many beads of each color you need.
 
-Free for Windows 10 or later (64-bit). No account needed, and it works offline.
+Free for Windows. No account needed, and it works offline.
 
 ## Download
 
