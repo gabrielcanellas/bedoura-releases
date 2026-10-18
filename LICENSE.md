@@ -56,10 +56,6 @@ Bedoura is provided "as is", without warranties of any kind, express or implied,
 
 To request permission for anything not allowed above, or to ask questions about this license, use the contact options at https://github.com/gabrielcanellas/bedoura-releases.
 
-## Governing Law
-
-This license is governed by the laws of Brazil.
-
 ## Changes to This License
 
 The terms of this license may be updated for future versions of Bedoura. The license applicable to a particular version is the one distributed with that version.
