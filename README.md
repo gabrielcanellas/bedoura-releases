@@ -1,8 +1,8 @@
-# Bedoura [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V8M625QQNI)
+# Bedoura
 
 Turn pixel art into bead patterns. Bedoura converts a PNG image into a pattern for Perler, Hama, Artkal and Nabbi beads, matching every pixel to the closest real bead color and telling you how many beads of each color you need.
 
-Free for Windows. No account needed, and it works offline.
+Free for Windows 10 or later (64-bit). No account needed, and it works offline.
 
 ## Download
 
@@ -88,19 +88,18 @@ Pegboards available: Midi has 29×29 and a small 16×16 (not connectable); Mini 
 - Pegboard support: see where each board starts and ends, and how many boards you need.
 - Ironing Mode: mirrors the view horizontally, for the tape method. The PDF export follows it.
 - Grid, zoom and pan.
-- PDF export: a full pattern page plus one page per pegboard (when a pegboard is selected). Bead codes are printed in each cell for patterns up to 52×52 beads, and always on the pegboard pages.
+- PDF export: a full pattern page plus one page per pegboard (when a pegboard is selected). Bead codes are printed in each cell for patterns up to 52×52 beads, and always on the pegboard pages. On very large patterns (above about 360 beads on the longest side) the thin grid lines are left out so the colors stay visible.
 - Interface in English, Portuguese and Spanish.
 
 ## Good to know
 
-- Very large or very colorful images can take several seconds to convert, and the window may not respond meanwhile.
+- Very large or very colorful images can take several seconds to convert. The window stays responsive and a loading indicator is shown meanwhile.
 - Only PNG files are supported.
 - Images above 300×300 beads show a warning, and images above 1000×1000 are blocked.
 - Partly transparent pixels are treated as opaque. Only fully transparent pixels stay empty.
 - Colors are matched by RGB distance, so the closest bead on paper may not always be the closest to your eye. Use the manual editing to fix it.
 - Updates are not installed automatically: download the new version and replace the old folder.
 - Your language and palette choices are not saved when you close the program, and projects can't be saved yet.
-- After loading a second image in the same session, dragging in the Original panel may zoom instead of move. Restarting the program fixes it.
 - Three recent Hama colors (Dusty Blue, Fuchsia Pink and Mustard) are not in the palette yet.
 
 ## Updates
