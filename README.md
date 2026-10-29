@@ -25,7 +25,7 @@ Windows may show a "protected your PC" warning the first time, because the progr
 5. **Adjust colors if you want.** Click a color in the list on the right and pick another bead. Hover over an option to preview it before confirming.
 6. **Pick a pegboard** (optional) with the pegboard button, if you want to see where each board starts and ends. It's available for Mini and Midi beads. The Materials panel then also shows how many boards you need.
 7. **Check the Materials panel** for the beads you need, grouped by brand.
-8. **Export a PDF** with the assembly guide. In the preview you can switch between portrait and landscape, then use **Print** and choose a PDF printer (such as Microsoft Print to PDF) to save a file, or send it to a real printer.
+8. **Export** the pattern with the export button. Choose **PDF** for the assembly guide (in the preview you can switch between portrait and landscape, then use **Print** and choose a PDF printer such as Microsoft Print to PDF to save a file, or send it to a real printer), or **.xlsx** to get an Excel spreadsheet with one colored cell per bead and its code.
 
 You can change the bead size or the palette after loading an image: the conversion is recalculated. If you had edited colors by hand, the program warns you first, because those edits are lost when it recalculates.
 
@@ -38,7 +38,7 @@ Hover over any icon to see its name at the bottom of the window.
 | Icon | What it does |
 |---|---|
 | Folder | Open a PNG image |
-| PDF | Export the pattern as a PDF |
+| Export | Export the pattern as a PDF or an Excel (.xlsx) spreadsheet |
 
 **Top bar, center**
 
@@ -54,6 +54,7 @@ Hover over any icon to see its name at the bottom of the window.
 | Icon | What it does |
 |---|---|
 | Bug | Report a bug, suggest an improvement or ask a question |
+| Moon / Sun | Switch between the light and the dark theme |
 | Globe | Change the language (English, Português, Español) |
 | Info | About, support links and check for updates |
 
@@ -88,7 +89,9 @@ Pegboards available: Midi has 29×29 and a small 16×16 (not connectable); Mini 
 - Pegboard support: see where each board starts and ends, and how many boards you need.
 - Ironing Mode: mirrors the view horizontally, for the tape method. The PDF export follows it.
 - Grid, zoom and pan.
+- Excel export (.xlsx): one cell per bead, filled with the bead color and showing its code. Pegboard divisions appear as thick borders, and Ironing Mode is followed.
 - PDF export: a full pattern page plus one page per pegboard (when a pegboard is selected). Bead codes are printed in each cell for patterns up to 52×52 beads, and always on the pegboard pages. On very large patterns (above about 360 beads on the longest side) the thin grid lines are left out so the colors stay visible.
+- Light and dark themes, switched with the moon/sun button in the top bar.
 - Interface in English, Portuguese and Spanish.
 
 ## Good to know
@@ -99,7 +102,7 @@ Pegboards available: Midi has 29×29 and a small 16×16 (not connectable); Mini 
 - Partly transparent pixels are treated as opaque. Only fully transparent pixels stay empty.
 - Colors are matched by RGB distance, so the closest bead on paper may not always be the closest to your eye. Use the manual editing to fix it.
 - Updates are not installed automatically: download the new version and replace the old folder.
-- Your language and palette choices are not saved when you close the program, and projects can't be saved yet.
+- Your theme, language and palette choices are not saved when you close the program (it always opens in the light theme), and projects can't be saved yet.
 - Three recent Hama colors (Dusty Blue, Fuchsia Pink and Mustard) are not in the palette yet.
 
 ## Updates
